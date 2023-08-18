@@ -162,6 +162,7 @@ cd
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
 rm /etc/nginx/conf.d/vps.conf
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/ssh/nginx.conf"
 wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/hokagelegend2023/alpha3/main/ssh/vps.conf"
 /etc/init.d/nginx restart
 
